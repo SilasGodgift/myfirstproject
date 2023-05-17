@@ -1,0 +1,118 @@
+/* *{
+    border: 2px solid red;
+} */
+body{
+    background:  linear-gradient(296.18deg, #E40556 11.58%, #000000 73.79%);
+    /* height: 100vh; */
+/* border: 4px solid #FFFFFF;
+border-radius: 32px; */
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #000000; */
+}
+.flex-container{
+    margin: 5px 40px 5px 40px;
+    font-family: 'Game Of Squids', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+color: #f1eded;
+}
+.squid{
+padding: 20px;
+margin: 5px 90px 5px 90px;
+}
+.nav{
+ color: #f1eded;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ margin: 5px 90px 5px 90px;
+}
+.nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a{
+    display: flex;
+    color: #f1eded;
+    text-decoration: none;
+    margin: 10px;
+}
+.hero-btn{
+width: 120px;
+margin: 1px;
+height: 40px;
+color: #f1eded;
+font-family: 'Game Of Squids', sans-serif;
+border:  #EB1656;
+border-radius: 5px;
+background: linear-gradient(90deg, #EB1656 28.48%, #AE1B76 72.96%);
+}
+i{
+ position: relative;
+ right: 4px;
+}
+.hero-btn:hover{
+    background: transparent;
+    color: white;
+    width: 150px;
+    border: 2px solid red;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 90px 5px 90px;
+}
+.sec1{
+    color: #f1eded;
+    font-family: 'Game Of Squids', sans-serif;
+    position: relative;
+    left: 80px;
+    
+}
+.group{
+    width: 400px;
+}
+p{
+    width: 300px;
+    font-size: large;
+     font-family: 'Game Of Squids', sans-serif;
+     color: #f1eded;
+}
+h2{
+    font-family: 'Game Of Squids', sans-serif;
+    background: linear-gradient(270deg, #D53443 59.64%, #141C95 75.94%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-size: 40px;
+}
+h1{
+    color: #f1eded;
+    font-family: 'Game Of Squids', sans-serif;
+    font-size: 70px;
+    line-height: 55px;    
+}
+.foot{
+    width: 150px;
+}
+.holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 90px 5px 90px;
+}
+.alive{
+    line-height: 40px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+}
